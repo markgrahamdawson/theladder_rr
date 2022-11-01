@@ -50,7 +50,10 @@ export default {
     families: {
       'Permanent Marker': true,
       'Loved by the King': true,
-      'Josefin Sans': true,
+      'Josefin Sans': {
+        wght: [100, 200, 300, 400, 500, 600, 700, 800, 900],
+        ital: [100, 200, 300, 400, 500, 600, 700, 800, 900]
+      },
       'Amatic SC': true
       // or:
       // Lato: [100, 300],

@@ -1,10 +1,10 @@
 <template>
-  <div class="mx-auto sm:block max-w-7xl px-2 sm:px-6 lg:px-8">
+  <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
   <div class="min-h-screen flex">
     
-    <div class="hidden sm:block p-6 w-1/3">
+    <div class="p-6 w-1/3">
       <div>
-        <div class="title font-amatic font-semibold text-4xl title underline py-2">
+        <div class="font-amatic font-semibold text-4xl title underline py-2">
           Recent posts
         </div>
         <div v-for="(post, index) in posts"
